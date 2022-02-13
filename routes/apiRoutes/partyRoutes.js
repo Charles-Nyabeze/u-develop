@@ -52,7 +52,7 @@ router.delete('/party/:id', (req, res) => {
     });
   });
   
-  app.use((req, res) => {
+  router.use((req, res) => {
       res.status(404).end();
     });
 
